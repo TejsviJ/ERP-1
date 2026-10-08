@@ -1,0 +1,13 @@
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local Supabase configuration (copy config.example.js to config.js)
+/config.js
+
+# OS files and local logs
+.DS_Store
+DS_Store
+*.log
